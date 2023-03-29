@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Twitch Channel in Player</title>
+    <script src="popup.js"></script>
+    <style>
+      body {
+        margin: 0;
+        background-color: #121212;
+        font-family: Arial, sans-serif;
+        width: 300px;
+        height: 175px;
+      }
+      
+      #container {
+        margin: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #333333;
+        color: #bdbdbd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+      }
+      
+      h1 {
+        color: #ffffff;
+        margin-top: 5px;
+        text-align: center;
+      }
+      
+      label {
+        color: #ffffff;
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+      
+      input[type="text"] {
+        background-color: #424242;
+        background-image: url(seachicon.png);
+        color: #ffffff;
+        width: 90%;
+        padding: 5px;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 6px;
+      }
+      
+      button {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 10px;
+        background-color: #6b34eb;
+        color: #ffffff;
+        cursor: pointer;
+
+      }
+      button:hover {
+        background-color: #3d207d;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Open Twitch Channel in Player</h1>
+    <form id="changeForm">
+      <label for="username">Enter Twitch channel:</label>
+      <input type="text" id="username" name="username" placeholder="Example: xQc" autocomplete="off">
+      <button type="submit" id="changeButton">Go to</button>
+    </form>
+  </body>
+</html>

@@ -7,9 +7,11 @@ Enter channel of your choice and you get redirected to [player.twitch.tv](https:
 - Better and cleaner way to watch Twitch. 
 - Best to use along with [Chatterino](https://chatterino.com/).
 
+![brave_qKlqmbPK0v](https://user-images.githubusercontent.com/64147848/229286595-293df52d-c63a-4411-8e72-7d59e31d59cd.png)
+
 # Install
 ### Firefox:  [**HERE**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel-in-player/)
-### Chrome: [**HERE**](https://github.com/yungsamd17/Open-Twitch-Channel-in-Player/releases) Download the latest release and follow instructions.
+### Chrome: [**HERE**](https://github.com/yungsamd17/Open-Twitch-Channel-in-Player/releases) (*Download the latest release and follow instructions*)
 
 ## Installing for Chrome
 Here is a short guide how to install an unpacked extension on Google Chrome or Chromium-based browsers (e.g. Brave, Edge, Opera).

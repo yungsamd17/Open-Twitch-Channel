@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("changeForm").addEventListener("submit", function (event) {
+  document.getElementById("playerButton").addEventListener("submit", function (event) {
     event.preventDefault();
     let username = document.getElementById("username").value.trim();
     if (username === '') {

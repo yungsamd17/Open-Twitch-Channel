@@ -2,10 +2,11 @@
 Open Twitch Channel in Player
 ============
 
-Enter channel of your choice and you get redirected to [player.twitch.tv](https://player.twitch.tv/?channel=xqc&parent=twitch.tv) to watch them.
+Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?channel=xqc&parent=twitch.tv) with just pressing **ENTER**.
 
-- Better and cleaner way to watch Twitch. 
-- Best to use along with [Chatterino](https://chatterino.com/).
+- Better and cleaner way to watch Twitch.
+- Best for user who mainly just use [Chatterino](https://chatterino.com/).
+- Better viewing experience for people on lower end systems. ***(no/less dropped frames than normal [Twitch](https://twitch.tv))***
 
 ![screenshot2](https://user-images.githubusercontent.com/64147848/229286595-293df52d-c63a-4411-8e72-7d59e31d59cd.png)
 

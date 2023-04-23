@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "Open Twitch Channel",
-   "version": "1.1.0",
+   "version": "1.1.2",
    "description": "Enter username and open player, channel and chat.",
    "icons": {
        "16": "src/icons/icon16.png",

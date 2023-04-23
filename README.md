@@ -8,7 +8,7 @@ Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?cha
 - Best for users who mainly just use [Chatterino](https://chatterino.com/).
 - Better viewing experience for people on lower end systems. ***(no/less dropped frames than normal [Twitch](https://twitch.tv))***
 
-![screenshot](https://user-images.githubusercontent.com/64147848/233856569-91f76f6c-51af-4cba-8bd5-8009c2dd60fa.png)
+![screenshot](https://user-images.githubusercontent.com/64147848/233858223-8b877860-fa44-4e33-8d69-1052f1534148.png)
 
 # Install
 ### Firefox:  [**HERE**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel/)

@@ -1,8 +1,8 @@
 {
    "manifest_version": 2,
-   "name": "Open Twitch Channel in Player",
+   "name": "Open Twitch Channel",
    "version": "1.0.3",
-   "description": "Enter channel name of your choice and watch them in  Player.",
+   "description": "Enter username and open player, channel and chat.",
    "icons": {
        "16": "src/icons/icon16.png",
        "48": "src/icons/icon48.png",

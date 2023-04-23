@@ -23,7 +23,7 @@ Here is a short guide how to install an unpacked extension on Google Chrome or C
 
 3. Open the **"Extensions"** page (*chrome://extensions/*) in the browser and turn on the **"Developer mode"**.
 
-![screenshot2](https://user-images.githubusercontent.com/64147848/228734049-1e16ee90-804b-4412-bd86-c799dda84d77.png)
+![screenshot2](https://user-images.githubusercontent.com/64147848/233856569-91f76f6c-51af-4cba-8bd5-8009c2dd60fa.png)
 
 4. Click on the **"Load unpacked"** button and select the directory where the extension is placed.
 

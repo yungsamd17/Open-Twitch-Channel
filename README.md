@@ -5,7 +5,7 @@ Open Twitch Channel
 Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?channel=xqc&parent=twitch.tv) with just pressing **ENTER**. Or Channel at [twitch.tv](https://twitch.tv/xqc) and Chat at [twitch.tv/popout](https://www.twitch.tv/popout/xqc/chat).
 
 - Better and cleaner way to watch Twitch.
-- Best for users who mainly just use [Chatterino](https://chatterino.com/).
+- Best for users who mainly just use [Chatterino](https://chatterino.com/) for chat.
 - Better viewing experience for people on lower end systems. ***(no/less dropped frames than normal [Twitch](https://twitch.tv))***
 
 ![screenshot](https://user-images.githubusercontent.com/64147848/233858223-8b877860-fa44-4e33-8d69-1052f1534148.png)

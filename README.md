@@ -7,8 +7,9 @@ Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?cha
 - Better and cleaner way to watch Twitch.
 - Best for users who mainly just use [Chatterino](https://chatterino.com/) for chat.
 - Better viewing experience for people on lower end systems. ***(no/less dropped frames than normal [Twitch](https://twitch.tv))***
+- Open in New/Active tab checkbox.
 
-![screenshot](https://user-images.githubusercontent.com/64147848/233858223-8b877860-fa44-4e33-8d69-1052f1534148.png)
+![screenshot](https://github.com/yungsamd17/Open-Twitch-Channel/assets/64147848/58ece688-fb17-4eb6-b3f5-912898ac7a1e)
 
 # Install
 ### Firefox:  [**HERE**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel/)
@@ -21,7 +22,7 @@ Here is a short guide how to install an unpacked extension on Google Chrome or C
 
 2. Place the folder somewhere you might not remove it by mistake.
 
-3. Open the **"Extensions"** page (*chrome://extensions/*) in the browser and turn on the **"Developer mode"**.
+3. Open the **"Extensions"** page *`(chrome://extensions/)`* in the browser and turn on the **"Developer mode"**.
 
 ![screenshot2](https://user-images.githubusercontent.com/64147848/228734049-1e16ee90-804b-4412-bd86-c799dda84d77.png)
 

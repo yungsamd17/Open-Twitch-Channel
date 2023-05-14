@@ -5,7 +5,7 @@ body {
   background-color: #121212;
   font-family: Arial, sans-serif;
   width: 300px;
-  height: 252px;
+  height: 280px;
 }
 h1 {
   color: #ffffff;
@@ -16,7 +16,6 @@ h1 {
 label {
   color: #ffffff;
   display: block;
-  margin-bottom: 5px;
   text-align: center;
 }
 input[type="text"] {
@@ -30,6 +29,12 @@ input[type="text"] {
   border: 2px solid black;
   border-radius: 6px;
 }
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
 .button {
   width: 95%;
   display: block;
@@ -39,6 +44,7 @@ input[type="text"] {
   border: 10px;
   background-color: #6b34eb;
   color: #ffffff;
+  font-weight: bold;
   transition-duration: 0.100s;
   cursor: pointer;
 }

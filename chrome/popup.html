@@ -8,8 +8,11 @@
   <body>
     <h1>Open Twitch Channel</h1>
     <form id="playerButton">
-      <label for="username">Enter Twitch channel:</label>
+      <label for="username" style="margin-bottom: 5px">Enter Twitch channel:</label>
       <input type="text" id="username" name="username" placeholder="Example: xQc" autocomplete="off">
+      <div class="checkbox">
+        <input type="checkbox" id="openNewTabCheckbox"><label for="openNewTabCheckbox">Open in new tab</label>
+      </div>
       <button type="submit" id="playerButton" class="button">Open Player</button>
       <button type="button" id="channelButton" class="button second-button">Open Channel</button>
       <button type="button" id="chatButton" class="button third-button">Open Chat</button>

@@ -40,6 +40,4 @@ document.addEventListener("DOMContentLoaded", function () {
       window.close();
     });
   }
-
-  document.getElementById("username").focus();
 });

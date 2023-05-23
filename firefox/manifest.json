@@ -1,17 +1,18 @@
 {
    "manifest_version": 2,
    "name": "Open Twitch Channel",
-   "version": "1.1.2",
-   "description": "Enter username and open player, channel and chat.",
+   "version": "1.1.3",
+   "description": "Enter username and open player, channel and chat. In the same or new tab.",
    "icons": {
        "16": "src/icons/icon16.png",
        "48": "src/icons/icon48.png",
        "128": "src/icons/icon128.png"
    },
+   "permissions": [
+    "tabs"
+    ],
    "browser_action": {
        "default_popup": "popup.html",
-       "default_title": "Open Twitch Channel in Player"
-   },
-   "permissions": [
-   ]
+       "default_title": "Open Twitch Channel"
+   }
 }

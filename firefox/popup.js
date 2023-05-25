@@ -41,3 +41,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// Prevent focus loss when clicking off of text input
+window.addEventListener('DOMContentLoaded', function() {
+  var inputElement = document.getElementById('username');
+  inputElement.focus();
+  inputElement.addEventListener('focusout', function() {
+    setTimeout(function() {
+      if (!inputElement.contains(document.activeElement)) {
+        inputElement.focus();
+      }
+    }, 0);
+  });
+});

@@ -1,7 +1,7 @@
 /*Style for Open-Twitch-Channel*/
 
 body {
-  width: 300px;
+  width: 330px;
   height: auto;
   background: #18181b;
   font-family: Arial, sans-serif;
@@ -10,28 +10,49 @@ body {
 h1 {
   color: #ffffff;
   margin-top: 15px;
-  margin-bottom: 30px;
-  font-size: 1.7rem;
+  margin-bottom: 40px;
+  font-family: Verdana, sans-serif;
+  font-size: 2rem;
   text-align: center;
 }
-input[type="text"] {
+.text-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.text-container input[type="text"] {
   background-color: #18181b;
   color: #ffffff;
-  width: 90%;
+  width: 83.5%;
+  height: 25px;
   padding: 5px;
-  margin-left: 8px;
-  margin-right: 8px;
+  padding-left: 30px;
   margin-bottom: 10px;
   border: 1px solid #67676b;
   border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
 }
-input[type="text"]:focus {
+.text-container input[type="text"]:focus {
   outline: 2px solid white;
   border: 1px solid white;
 }
+::selection {
+  background-color: #6b34eb;
+}
 ::placeholder {
   color: #67676b;
+  font-weight: normal;
   opacity: 1;
+}
+.search-icon {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #67676b;
+  font-size: 1rem;
+  cursor: text;
 }
 input[type="checkbox"]:focus {
   outline: none;

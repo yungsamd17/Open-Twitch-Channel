@@ -9,7 +9,10 @@
     <h1>Open Twitch Channel</h1>
     <form id="playerButton">
       <label for="username" class="label1">Enter Twitch channel:</label>
-      <input type="text" id="username" placeholder="Example: xQc" autocomplete="off" autofocus>
+      <div id="playerButton" class="text-container">
+        <input type="text" id="username" placeholder="Enter channel" autocomplete="off" spellcheck="false">
+        <i class="fas fa-search search-icon"></i>
+      </div>
       <div class="checkbox">
         <input type="checkbox" id="openNewTabCheckbox">
         <label for="openNewTabCheckbox" class="label2">Open in new tab</label>

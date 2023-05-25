@@ -9,7 +9,7 @@ Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?cha
 - Better viewing experience for people on lower end systems. ***(no/less dropped frames than normal [Twitch](https://twitch.tv))***
 - Open in New/Active tab checkbox.
 
-![screenshot](https://github.com/yungsamd17/Open-Twitch-Channel/assets/64147848/cc9dca90-30af-4e2a-a453-8b3bec9537fb)
+![screenshot](https://github.com/yungsamd17/Open-Twitch-Channel/assets/64147848/bb66f018-ba30-46a0-8baf-4b91cdc59fb1)
 
 # Install
 ### Firefox:  [**HERE**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel/)

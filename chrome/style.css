@@ -41,7 +41,7 @@ h1 {
   border: 1px solid white;
 }
 ::selection {
-  background-color: #6b34eb;
+  background-color: #9146ff;
 }
 ::placeholder {
   color: #67676b;
@@ -67,7 +67,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 input[type="checkbox"]:checked {
-  background-color: #6b34eb;
+  background-color: #9146ff;
   border: 3px solid white;
 }
 input[type="checkbox"]:focus {
@@ -93,7 +93,7 @@ input[type="checkbox"]:focus {
   padding: 10px;
   border-radius: 5px;
   border: 10px;
-  background-color: #6b34eb;
+  background-color: #9146ff;
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
@@ -101,10 +101,10 @@ input[type="checkbox"]:focus {
   cursor: pointer;
 }
 .button:hover {
-  background-color: #492694;
+  background-color: #6D35BF;
 }
 .button:active {
-  background-color: #4926947d;
+  background-color: #492380;
 }
 .second-button {
   margin-top: 10px;

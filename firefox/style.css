@@ -80,19 +80,6 @@ input[type="checkbox"]:focus {
   display: flex;
   align-items: center;
 }
-.checkbox-label i {
-  position: absolute;
-  left: 30%;
-  top: 53.1%;
-  transform: translateY(-50%);
-  color: transparent;
-}
-.checkbox input[type="checkbox"]:checked + .checkbox-label i {
-  color: #ffffff;
-}
-.checkbox-icon {
-  margin-right: 5px;
-}
 .checkbox {
   display: flex;
   justify-content: center;

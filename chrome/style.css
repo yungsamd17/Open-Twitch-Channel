@@ -35,13 +35,14 @@ h1 {
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .text-container input[type="text"]:focus {
   outline: 2px solid white;
   border: 1px solid white;
 }
 ::selection {
-  background-color: #9146ff;
+  background-color: #9147ff;
 }
 ::placeholder {
   color: #67676b;
@@ -51,7 +52,7 @@ h1 {
 .search-icon {
   position: absolute;
   top: 40%;
-  left: 20px;
+  left: 19px;
   transform: translateY(-50%);
   color: #67676b;
   font-size: 1rem;
@@ -67,7 +68,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 input[type="checkbox"]:checked {
-  background-color: #9146ff;
+  background-color: #9147ff;
   border: 3px solid white;
 }
 input[type="checkbox"]:focus {
@@ -93,18 +94,20 @@ input[type="checkbox"]:focus {
   padding: 10px;
   border-radius: 5px;
   border: 10px;
-  background-color: #9146ff;
+  background-color: #9147ff;
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
   transition-duration: 0.050s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
 .button:hover {
-  background-color: #6D35BF;
+  background-color: #772ce8;
+  box-shadow: 0 2px 4px 0 rgba(145, 70, 255, 0.2), 0 5px 10px 0 rgba(145, 70, 255, 0.1);
 }
 .button:active {
-  background-color: #492380;
+  background-color: #5c16c5;
 }
 .second-button {
   margin-top: 10px;

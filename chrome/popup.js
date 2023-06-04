@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const openNewTabCheckbox = document.getElementById("openNewTabCheckbox");
+
+  // Retrieve the checkbox state from storage and update the checkbox on popup load
+  chrome.storage.local.get(["openNewTabCheckbox"], function (result) {
+    openNewTabCheckbox.checked = result.openNewTabCheckbox || false;
+  });
+
   document.getElementById("playerButton").addEventListener("submit", function (event) {
     event.preventDefault();
     let username = document.getElementById("username").value.trim();
@@ -29,15 +36,27 @@ document.addEventListener("DOMContentLoaded", function () {
     openUrl(url);
   });
 
+  // Save the checkbox state to storage when it changes
+  openNewTabCheckbox.addEventListener("change", function () {
+    const isChecked = openNewTabCheckbox.checked;
+
+    chrome.storage.local.set({ openNewTabCheckbox: isChecked }, function () {
+      console.log("Open Twitch Channel - Checkbox state saved.");
+    });
+  });
+
   function openUrl(url) {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-      const newTab = document.getElementById("openNewTabCheckbox").checked;
-      if (newTab) {
-        chrome.tabs.create({ url: url });
-      } else {
-        chrome.tabs.update(tabs[0].id, { url: url });
-      }
-      window.close();
+      chrome.storage.local.get(["openNewTabCheckbox"], function (result) {
+        const newTab = result.openNewTabCheckbox || false;
+
+        if (newTab) {
+          chrome.tabs.create({ url: url });
+        } else {
+          chrome.tabs.update(tabs[0].id, { url: url });
+        }
+        window.close();
+      });
     });
   }
 });

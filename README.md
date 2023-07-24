@@ -11,9 +11,9 @@ Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?cha
 
 ![screenshot](https://github.com/yungsamd17/Open-Twitch-Channel/assets/64147848/042b869a-bf58-4cae-bb36-7c33b22fca12)
 
-# Install
-### Firefox:  [**HERE**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel/)
-### Chrome: [**HERE**](https://github.com/yungsamd17/Open-Twitch-Channel/releases/latest) (*Download and follow instructions*)
+# Download
+### [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/open-twitch-channel/)
+### [**Chrome**](https://github.com/yungsamd17/Open-Twitch-Channel/releases/latest/download/chrome.zip) (*Download and follow instructions*)
 
 ## Installing for Chrome
 Here is a short guide how to install an unpacked extension on Google Chrome or Chromium-based browsers (e.g. Brave, Edge, Opera).

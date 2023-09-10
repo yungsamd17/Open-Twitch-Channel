@@ -2,7 +2,7 @@
    "manifest_version": 2,
    "name": "Open Twitch Channel",
    "description": "Enter username and open player, channel and chat. In the same or new tab.",
-   "version": "1.1.5",
+   "version": "1.1.6",
    "author": "yungsamd17",
    "homepage_url": "https://github.com/yungsamd17/Open-Twitch-Channel",
    "icons": {

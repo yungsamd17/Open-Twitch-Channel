@@ -1,23 +1,39 @@
-/*Style for Open-Twitch-Channel*/
-
-* {
-  user-select: none;
-}
 body {
+  --primary: #18181b;
+  --secondary: #67676b;
+  --accent: #9146ff;
+  --accent-hover: #772ce8;
+  --accent-active: #5c16c5;
+  --shadow: rgba(0, 0, 0, 0.2);
+
   width: 330px;
   height: auto;
-  background: #18181b;
+  background: var(--primary);
   font-family: Arial, sans-serif;
   margin: 0;
+  user-select: none;
 }
+:root {
+  color-scheme: dark;
+}
+::selection {
+  background-color: var(--accent);
+}
+
+
+/* HEADER */
+
 h1 {
-  color: #ffffff;
   margin-top: 15px;
   margin-bottom: 30px;
   font-family: Verdana, sans-serif;
   font-size: 2rem;
   text-align: center;
 }
+
+
+/* Text CONTAINER */
+
 .text-container {
   display: flex;
   padding: 10px;
@@ -25,28 +41,23 @@ h1 {
   position: relative;
 }
 .text-container input[type="text"] {
-  background-color: #18181b;
-  color: #ffffff;
+  background-color: var(--primary);
   width: 100%;
   height: 25px;
   margin: 0;
-  padding: 5px;
-  padding-left: 30px;
-  border: 1px solid #67676b;
+  padding: 5px 5px 5px 30px;
+  border: 1px solid var(--secondary);
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
 .text-container input[type="text"]:focus {
   outline: 2px solid white;
   border: 1px solid white;
 }
-::selection {
-  background-color: #9147ff;
-}
 ::placeholder {
-  color: #67676b;
+  color: var(--secondary);
   font-weight: normal;
   opacity: 1;
 }
@@ -55,28 +66,32 @@ h1 {
   top: 50%;
   left: 20px;
   transform: translateY(-50%);
-  color: #67676b;
+  color: var(--secondary);
   font-size: 1rem;
   cursor: text;
 }
+
+
+/* CHECKBOX */
+
 input[type="checkbox"] {
   appearance: none;
   width: 20px;
   height: 20px;
-  border: 1px solid #67676b;
+  border: 1px solid var(--secondary);
   border-radius: 5px;
   outline: none;
   cursor: pointer;
 }
 input[type="checkbox"]:checked {
-  background-color: #9147ff;
+  background-color: var(--accent);
   border: 3px solid white;
 }
 input[type="checkbox"]:focus {
   outline: none;
 }
+
 .checkbox-label {
-  color: white;
   cursor: pointer;
   font-size: 1rem;
   display: flex;
@@ -87,31 +102,34 @@ input[type="checkbox"]:focus {
   justify-content: center;
   align-items: center;
 }
-.player-button-container {
+
+
+/* BUTTONS */
+
+.button-container {
   justify-content: center;
   padding: 10px;
 }
+
 .button {
   width: 100%;
   display: block;
   padding: 10px;
   border-radius: 5px;
   border: 10px;
-  background-color: #9147ff;
-  color: #ffffff;
+  background-color: var(--accent);
   font-size: 1rem;
   font-weight: bold;
-  transition-duration: 0.050s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
   cursor: pointer;
 }
 .button:hover {
-  background-color: #772ce8;
-  box-shadow: 0 2px 4px 0 rgba(145, 70, 255, 0.2), 0 5px 10px 0 rgba(145, 70, 255, 0.1);
+  background-color: var(--accent-hover);
 }
 .button:active {
-  background-color: #5c16c5;
+  background-color: var(--accent-active);
 }
+
 .other-buttons {
   margin-top: 10px;
 }

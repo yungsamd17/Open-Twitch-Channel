@@ -1,6 +1,4 @@
-![ICON](https://user-images.githubusercontent.com/64147848/228734189-3e2a9995-6b78-44ee-a072-11ad0318cca2.png)
-Open Twitch Channel
-============
+# <img src="extension/src/icons/icon48.png" width="38" align="left" /> Open Twitch Channel
 
 Type channel username and go to [player.twitch.tv](https://player.twitch.tv/?channel=xqc&parent=twitch.tv) with just pressing **ENTER**. Or Channel at [twitch.tv](https://twitch.tv/xqc) and Chat at [twitch.tv/popout](https://www.twitch.tv/popout/xqc/chat).
 

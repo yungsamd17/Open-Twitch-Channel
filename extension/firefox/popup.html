@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Open Twitch Channel</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <h1>Open Twitch Channel</h1>
+    <form id="channelButton">
+        <div class="text-container">
+            <input type="text" id="username" placeholder="Enter channel" autocomplete="off" spellcheck="false" autofocus>
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="openNewTabCheckbox">
+            <label for="openNewTabCheckbox" class="checkbox-label">Open in a new tab</label>
+        </div>
+        <div class="button-container">
+            <button type="submit" id="channelButton" class="button">Open Channel</button>
+            <button type="button" id="playerButton" class="button other-buttons">Open Player</button>
+            <button type="button" id="chatButton" class="button other-buttons">Open Chat</button>
+        </div>
+    </form>
+    <footer>
+        <a href="https://yungsamd17.github.io" target="_blank">yungsamd17.github.io</a>
+    </footer>
+</body>
+
+</html>

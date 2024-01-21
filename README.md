@@ -10,7 +10,7 @@ Type channel username and go to Channel with just pressing **ENTER**. Or Player 
 
 ## Install
 
-_Chrome extension not published yet._
+_Chrome extension pending release._
 <br>
 <a href="CHROME_WEB_STORE_LINK">
 	<img src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle"> <b>Chrome</b>

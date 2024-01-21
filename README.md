@@ -1,4 +1,4 @@
-# <img src="extension/src/icons/icon48.png" width="38" align="left" /> Open Twitch Channel
+# <img src="extension/chrome/src/icons/icon48.png" width="38" align="left" /> Open Twitch Channel
 
 Type channel username and go to Channel with just pressing **ENTER**. Or Player and Chat at.
 
